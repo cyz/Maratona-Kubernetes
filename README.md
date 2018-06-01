@@ -38,7 +38,7 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 * Lição 2: Introdução ao Docker
 * [Lição 3: Hands-on - Docker](module-02%20-%20docker/example1-docker)
 * [Lição 4: Hands-on - Docker compose](module-02%20-%20docker/example2-docker-compose)
-* [Lição 5: Hands-on - Docker hub](module-02%20-%20docker/example3-docker-hub) 
+* [Lição 5: Hands-on - Docker hub](module-02%20-%20docker/example3-dockerhub) 
 
 ### MÓDULO 3: PRINCÍPIOS DE KUBERNETES
 
