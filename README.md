@@ -1,10 +1,8 @@
 # Bem vindo à Maratona Kubernetes
 
-<img src="https://i.imgur.com/RsMMj5U.png" alt="capa maratona kubernetes" title="Bem vindo à Maratona Kubernetes" width="600" heigth="300"/>
+<img src="https://i.imgur.com/RsMMj5U.png" alt="capa maratona kubernetes" title="Bem vindo à Maratona Kubernetes"  />
 
 Inscrições: [http://aka.ms/maratonakubernetes](http://aka.ms/maratonakubernetes)
-
-Instrutor: [@erickwendel](@erickwendel)
 
 ## SOBRE O TREINAMENTO
 
@@ -21,10 +19,9 @@ Conta gratuita para desenvolvedores no Azure Free Trial. Você receberá gratuit
 
 ## INSTRUTOR
 
-### [Erick Wendel](@erickwendel)
+### [Erick Wendel](https://github.com/erickwendel)
 
 Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable Professional (MVP). Fundador da EW.IT, Microsoft Certified Professional, Microsoft Specialist. Possui amplo conhecimento em desenvolvimento de software, experiência em arquitetura, desenvolvimento e segurança de aplicações. Palestrante nas maiores conferências de JavaScript, Node.js e segurança da América latina.
-<img src="https://i.imgur.com/a68Yq28.jpg" alt="capa Erick Wendel" title="Instrutor Erick Wendel" width="600" heigth="300"/>
 
 ## CONTEÚDO
 
@@ -39,9 +36,9 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 
 * Lição 1: O que são containers
 * Lição 2: Introdução ao Docker
-* Lição 3: [Hands-on - Docker](module-02 - docker/example1-docker)
-* Lição 4: [Hands-on - Docker compose](module-02 - docker/example2-docker-compose)
-* Lição 5: [Hands-on - Docker hub](module-02 - docker/example3-docker-hub)
+* [Lição 3: Hands-on - Docker](module-02%20-%20docker/example1-docker)
+* [Lição 4: Hands-on - Docker compose](module-02%20-%20docker/example2-docker-compose)
+* [Lição 5: Hands-on - Docker hub](module-02%20-%20docker/example3-docker-hub) 
 
 ### MÓDULO 3: PRINCÍPIOS DE KUBERNETES
 
