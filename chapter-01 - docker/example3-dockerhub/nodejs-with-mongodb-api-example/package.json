@@ -1,0 +1,26 @@
+{
+  "name": "docker-registry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm i -g typescript",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/hapi": "^15.0.2",
+    "@types/joi": "^13.0.5",
+    "@types/mongodb": "^3.0.5",
+    "hapi": "^15.2.0",
+    "hapi-swagger": "^7.10.0",
+    "inert": "^4.2.1",
+    "joi": "^13.1.2",
+    "mongodb": "^3.0.3",
+    "vision": "^4.1.1"
+  }
+}
