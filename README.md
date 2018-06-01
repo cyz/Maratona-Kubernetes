@@ -53,8 +53,9 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 
 ### MÓDULO 4: K8S EM AÇÃO - TRABALHANDO COM KUBERNETES NO AZURE
 
-* Lição 1: Hands-on - ACI - Azure Container Instances
-* Lição 2: Hands-on - AKS - Azure Kubernetes Service
+* Lição 1: Hands-on - ACR - Azure Container Registry
+* Lição 2: Hands-on - ACI - Azure Container Instances
+* Lição 3: Hands-on - AKS - Azure Kubernetes Service
 
 ### MÓDULO 5: PODS
 
@@ -62,12 +63,12 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 * Lição 2: Pods e Containers
 * Lição 3: Hands-on - Iterative Model
 * Lição 4: Hands-on - Declarative Model
+* Lição 5: Hands-on - Gerenciamento de pods
 
 ### MÓDULO 6: SECRETS
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Iterative Model
-* Lição 3: Hands-on - Declarative Model
+* Lição 2: Hands-on - Trabalhando com Imagens Privadas
 
 ### MÓDULO 7: REPLICASETS
 
