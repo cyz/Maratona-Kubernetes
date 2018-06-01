@@ -34,4 +34,4 @@
 
 #### Linux Systems
 
-Obs: if you are on linux sytem, npm install script, fails because you need `sudo` permissions. Try to run `sudo npm i -g typescript` and remove `"preinstall": "npm i -g typescript"` line from [package.json](/package.json), after that, try `npm i` again.
+Obs: if you are on linux sytem, npm install script, fails because you need `sudo` permissions. Try to run `sudo npm i -g typescript` and remove `"preinstall": "npm i -g typescript"` line from [package.json](nodejs-with-mongodb-api-example/package.json#L7), after that, try `npm i` again.
