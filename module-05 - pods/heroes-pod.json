@@ -1,0 +1,29 @@
+{
+    "apiVersion": "v1",
+    "kind": "Pod",
+    "metadata": {
+        "name": "api-heroes",
+        "labels": {
+            "zone": "prod",
+            "version": "v1"
+        }
+    },
+    "spec": {
+        "containers": [{
+            "name": "api-heroes",
+            "image": "erickwendel/nodejs-with-mongodb-example",
+            "ports": [{
+                "containerPort": 4000
+            }],
+            "env": [{
+                    "name": "MONGO_URL",
+                    "value": "10.244.0.109"
+                },
+                {
+                    "name": "PORT",
+                    "value": "4000"
+                }
+            ]
+        }]
+    }
+}
