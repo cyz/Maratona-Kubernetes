@@ -73,18 +73,18 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 ### MÓDULO 7: REPLICASETS
 
 * Lição 1: Introdução
-* Lição 2: Hands-on - ReplicaSets
+* Lição 2: [Hands-on - ReplicaSets](module-07%20-%20replicaSets)
 
 ### MÓDULO 8: SERVICES
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Iterative Model
-* Lição 3: Hands-on - Declarative Model
+* Lição 2: [Hands-on - Iterative Model](module-08%20-%20services/scripts.sh)
+* Lição 3: [Hands-on - Declarative Model](module-08%20-%20services)
 
 ### MÓDULO 9: DEPLOYMENTS
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Declarative Model
+* Lição 2: [Hands-on - Declarative Model](module-09%20-%20deployments)
 
 ### MÓDULO 10: ROLLING UPDATES
 
