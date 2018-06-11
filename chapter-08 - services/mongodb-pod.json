@@ -1,0 +1,21 @@
+{
+    "apiVersion": "v1",
+    "kind": "Pod",
+    "metadata": {
+        "name": "mongodb",
+        "labels": {
+            "zone": "prod",
+            "version": "v1",
+            "app": "mongodb"
+        }
+    },
+    "spec": {
+        "containers": [{
+            "name": "mongodb",
+            "image": "mongo:3.5",
+            "ports": [{
+                "containerPort": 27017
+            }]
+        }]
+    }
+}

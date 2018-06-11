@@ -1,0 +1,23 @@
+{
+    "kind": "Service",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "mongodb-svc",
+        "labels": {
+            "version": "v1",
+            "app": "mongodb"
+        }
+    },
+    "spec": {
+        "selector": {
+            "app": "mongodb"
+
+        },
+        "type": "LoadBalancer",
+        "ports": [{
+            "protocol": "TCP",
+            "port": 27017,
+            "targetPort": 27017
+        }]
+    }
+}
