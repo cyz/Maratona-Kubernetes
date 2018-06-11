@@ -53,22 +53,22 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 
 ### MÓDULO 4: K8S EM AÇÃO - TRABALHANDO COM KUBERNETES NO AZURE
 
-* Lição 1: Hands-on - ACR - Azure Container Registry
-* Lição 2: Hands-on - ACI - Azure Container Instances
-* Lição 3: Hands-on - AKS - Azure Kubernetes Service
+* Lição 1: [Hands-on - ACR - Azure Container Registry](module-04%20-%20k8s-on-azure/1.%20container-registry.sh)
+* Lição 2: [Hands-on - ACI - Azure Container Instances](module-04%20-%20k8s-on-azure/2.%20container-services.sh)
+* Lição 3: [Hands-on - AKS - Azure Kubernetes Service](module-04%20-%20k8s-on-azure/3.%20aks-kubernetes-az.sh)
 
 ### MÓDULO 5: PODS
 
 * Lição 1: Apresentação do capítulo
 * Lição 2: Pods e Containers
-* Lição 3: Hands-on - Iterative Model
-* Lição 4: Hands-on - Declarative Model
-* Lição 5: Hands-on - Gerenciamento de pods
+* Lição 3: [Hands-on - Iterative Model](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
+* Lição 4: [Hands-on - Declarative Model](module-05%20-%20pods)
+* Lição 5: [Hands-on - Gerenciamento de pods](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
 
 ### MÓDULO 6: SECRETS
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Trabalhando com Imagens Privadas
+* Lição 2: [Hands-on - Trabalhando com Imagens Privadas](module-06%20-%20secrets)
 
 ### MÓDULO 7: REPLICASETS
 
