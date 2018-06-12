@@ -60,10 +60,9 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 ### MÓDULO 5: PODS
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Pods e Containers
-* Lição 3: [Hands-on - Iterative Model](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
-* Lição 4: [Hands-on - Declarative Model](module-05%20-%20pods)
-* Lição 5: [Hands-on - Gerenciamento de pods](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
+* Lição 2: [Hands-on - Iterative Model](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
+* Lição 3: [Hands-on - Declarative Model](module-05%20-%20pods)
+* Lição 4: [Hands-on - Gerenciamento de pods](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
 
 ### MÓDULO 6: SECRETS
 
