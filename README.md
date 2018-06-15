@@ -122,7 +122,7 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 * Lição 1: Apresentação do capítulo
 * Lição 2: Hands-on - Monitoramento e alertas com Slack Webhooks
 * Lição 3: Hands-on - Conhecendo o OMS
-* Lição 4: Monitoramento e Análise de performance de clusters de container Com KubeDash
+* Lição 4: Hands-on - Monitoramento e Análise de clusters e containers Com KubeDash
 * Lição 5: Hands-on - Gerenciando recursos e auto scalling
 
 ### MÓDULO 17: PRÓXIMOS PASSOS
