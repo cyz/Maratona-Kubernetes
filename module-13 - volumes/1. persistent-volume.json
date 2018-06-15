@@ -1,0 +1,20 @@
+{
+  "kind": "PersistentVolume",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "uploads-pv",
+    "labels": {
+      "type": "local"
+    }
+  },
+  "spec": {
+    "storageClassName": "default",
+    "capacity": {
+      "storage": "5Gi"
+    },
+    "accessModes": ["ReadWriteOnce"],
+    "hostPath": {
+      "path": "/src/uploads"
+    }
+  }
+}

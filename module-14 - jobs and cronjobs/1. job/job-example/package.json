@@ -1,0 +1,22 @@
+{
+  "name": "job-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "pm2-docker lib/Index.js"
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongodb": "3.0.15",
+    "@types/request-promise": "4.1.41",
+    "chalk-animation": "^1.6.0",
+    "mongodb": "3.0.7",
+    "request": "2.85.0",
+    "request-promise": "4.2.2"
+  }
+}

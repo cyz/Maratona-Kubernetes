@@ -1,0 +1,28 @@
+{
+  "apiVersion": "batch/v1",
+  "kind": "Job",
+  "metadata": {
+    "name": "job-starwars"
+  },
+  "spec": {
+    "parallelism": 2,
+    "completions": 5,
+
+    "template": {
+      "spec": {
+        "containers": [{
+          "name": "job-starwars",
+          "image": "erickwendel/k8s-job-starwars-example:latest",
+          "env": [{
+            "name": "MONGO_URL",
+            "value": "mongodb-svc"
+          }]
+        }],
+
+        
+      },
+    },
+
+    "backoffLimit": 4
+  }
+}

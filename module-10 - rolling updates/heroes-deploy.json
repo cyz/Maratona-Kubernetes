@@ -1,0 +1,74 @@
+{
+  "apiVersion": "extensions/v1beta1",
+  "kind": "Deployment",
+  "metadata": {
+    "name": "api-heroes",
+    "labels": {
+      "version": "v1",
+      "app": "api-heroes"
+    }
+  },
+  "spec": {
+    "replicas": 2,
+    "strategy": {
+      "type": "RollingUpdate",
+      "rollingUpdate": {
+        "maxSurge": 1,
+        "maxUnavailable": 1
+      }
+    },
+    "minReadySeconds": 5,
+    "selector": {
+      "matchLabels": {
+        "version": "v1",
+        "app": "api-heroes"
+      }
+    },
+    "template": {
+      "metadata": {
+        "labels": {
+          "version": "v1",
+          "app": "api-heroes"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "api-heroes",
+            "image": "k8scourse.azurecr.io/api-heroes:3",
+            "ports": [
+              {
+                "containerPort": 4000
+              }
+            ],
+            "env": [
+              {
+                "name": "MONGO_URL",
+                "value": "mongodb-svc"
+              },
+              {
+                "name": "PORT",
+                "value": "4000"
+              }
+            ],
+            "resources": {
+              "requests": {
+                "memory": "64Mi",
+              "cpu": "250m"
+              },
+              "limits": {
+                "memory": "100Mi",
+                "cpu": "500m"
+              }
+            }
+          }
+        ],
+        "imagePullSecrets": [
+          {
+            "name": "acr-credentials"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+version: '3'
+services: 
+  job:
+    build: .
+    environment: 
+      MONGO_URL: mongodb
+    links:
+      - mongodb
+
+  mongodb:
+    image: mongo:3.5
+    ports: 
+      - 27017:2017

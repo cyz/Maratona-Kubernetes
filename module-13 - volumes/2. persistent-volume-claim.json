@@ -1,0 +1,16 @@
+{
+  "kind": "PersistentVolumeClaim",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "uploads-pvc"
+  },
+  "spec": {
+    "storageClassName": "default",
+    "accessModes": ["ReadWriteOnce"],
+    "resources": {
+      "requests": {
+        "storage": "5Gi"
+      }
+    }
+  }
+}

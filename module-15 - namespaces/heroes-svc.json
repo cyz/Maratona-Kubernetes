@@ -1,0 +1,23 @@
+{
+    "kind": "Service",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "api-heroes-svc",
+        "labels": {
+            "version": "v1",
+            "app": "api-heroes"
+        }
+    },
+    "spec": {
+        "selector": {
+            "app": "api-heroes"
+
+        },
+        "type": "LoadBalancer",
+        "ports": [{
+            "protocol": "TCP",
+            "port": 4000,
+            "targetPort": 4000
+        }]
+    }
+}
