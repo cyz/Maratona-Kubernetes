@@ -88,42 +88,42 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 ### MÓDULO 10: ROLLING UPDATES
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Gerenciando versões e historico de atualizações
+* Lição 2: [Hands-on - Gerenciando versões e historico de atualizações](module-10%20-%20rolling%20updates)
 
 ### MÓDULO 11: INGRESS CONTROLLERS
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Ingress Controllers
+* Lição 2: [Hands-on - Ingress Controllers](module-11%20-%20ingress%20controllers)
 
 ### MÓDULO 12: STATEFULSET
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - StatefulSet
+* Lição 2: [Hands-on - StatefulSet](module-12%20-%20statefulSet)
 
 ### MÓDULO 13: PERSISTENT VOLUMES
 
 * Lição 1: Apresentação do capítulo
 * Lição 2: Contaner Stateless?
-* Lição 3: Hands-on - Volumes
-* Lição 4: Hands-on - Persistent volumes com Azure Files
+* Lição 3: [Hands-on - Persistent volumes com Azure Disks](module-13%20-%20volumes)
 
 ### MÓDULO 14: JOBS AND CRON JOBS
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Jobs
-* Lição 3: Hands-on - Cron Jobs
+* Lição 2: [Hands-on - Jobs](module-14%20-%20jobs%20and%20cronjobs/1.%20job)
+* Lição 3: [Hands-on - Cron Jobs](module-14%20-%20jobs%20and%20cronjobs/2.%20cron-job)
 
 ### MÓDULO 15: NAMESPACES
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Namespaces
+* Lição 2: [Hands-on - Namespaces](module-15%20-%20namespaces)
 
 ### MÓDULO 16: MONITORAMENTO DE RECURSOS E AUTO-SCALING
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Conhecendo o OMS
-* Lição 3: Monitoramento e Análise de performance de clusters de container Com KubeDash
-* Lição 4: Hands-on - Gerenciando recursos e auto scalling
+* Lição 2: Hands-on - Monitoramento e alertas com Slack Webhooks
+* Lição 3: Hands-on - Conhecendo o OMS
+* Lição 4: Monitoramento e Análise de performance de clusters de container Com KubeDash
+* Lição 5: Hands-on - Gerenciando recursos e auto scalling
 
 ### MÓDULO 17: PRÓXIMOS PASSOS
 
