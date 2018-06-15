@@ -36,9 +36,9 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 
 * Lição 1: O que são containers
 * Lição 2: Introdução ao Docker
-* [Lição 3: Hands-on - Docker](module-02%20-%20docker/example1-docker)
-* [Lição 4: Hands-on - Docker compose](module-02%20-%20docker/example2-docker-compose)
-* [Lição 5: Hands-on - Docker hub](module-02%20-%20docker/example3-dockerhub) 
+* Lição 3: [Hands-on - Docker](module-02%20-%20docker/example1-docker)
+* Lição 4: [Hands-on - Docker compose](module-02%20-%20docker/example2-docker-compose)
+* Lição 5: [Hands-on - Docker hub](module-02%20-%20docker/example3-dockerhub) 
 
 ### MÓDULO 3: PRINCÍPIOS DE KUBERNETES
 
@@ -60,10 +60,9 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 ### MÓDULO 5: PODS
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Pods e Containers
-* Lição 3: [Hands-on - Iterative Model](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
-* Lição 4: [Hands-on - Declarative Model](module-05%20-%20pods)
-* Lição 5: [Hands-on - Gerenciamento de pods](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
+* Lição 2: [Hands-on - Iterative Model](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
+* Lição 3: [Hands-on - Declarative Model](module-05%20-%20pods)
+* Lição 4: [Hands-on - Gerenciamento de pods](module-05%20-%20pods/1.%20aks%20-%20working%20with%20pods.sh)
 
 ### MÓDULO 6: SECRETS
 
@@ -73,18 +72,18 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 ### MÓDULO 7: REPLICASETS
 
 * Lição 1: Introdução
-* Lição 2: Hands-on - ReplicaSets
+* Lição 2: [Hands-on - ReplicaSets](module-07%20-%20replicaSets)
 
 ### MÓDULO 8: SERVICES
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Iterative Model
-* Lição 3: Hands-on - Declarative Model
+* Lição 2: [Hands-on - Iterative Model](module-08%20-%20services/scripts.sh)
+* Lição 3: [Hands-on - Declarative Model](module-08%20-%20services)
 
 ### MÓDULO 9: DEPLOYMENTS
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Declarative Model
+* Lição 2: [Hands-on - Declarative Model](module-09%20-%20deployments)
 
 ### MÓDULO 10: ROLLING UPDATES
 
