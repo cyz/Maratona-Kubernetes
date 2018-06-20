@@ -8,7 +8,7 @@ cd metrics-server/deploy/1.8+
 for D in `ls`
 do
   echo " creating.. $D"
-  kubectl delete -f $D
+  kubectl create -f $D
 done
 cd ....
 
