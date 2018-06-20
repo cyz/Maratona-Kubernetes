@@ -120,10 +120,10 @@ Pós-graduando em Business Intelligence with Big Data. Microsoft Most Valuable P
 ### MÓDULO 16: MONITORAMENTO DE RECURSOS E AUTO-SCALING
 
 * Lição 1: Apresentação do capítulo
-* Lição 2: Hands-on - Monitoramento e alertas com Slack Webhooks
-* Lição 3: Hands-on - Conhecendo o OMS
-* Lição 4: Hands-on - Monitoramento e Análise de clusters e containers Com KubeDash
-* Lição 5: Hands-on - Gerenciando recursos e auto scalling
+* Lição 2: [Hands-on - Monitoramento e alertas com Slack Webhooks](module-16%20-%20resource%20monitoring%20and%20auto-scale/4.%20slack%20notification)
+* Lição 3: [Hands-on - Conhecendo o OMS](module-16%20-%20resource%20monitoring%20and%20auto-scale/1.%20working%20with%20OMS)
+* Lição 4: [Hands-on - Monitoramento e Análise de clusters e containers Com KubeDash](module-16%20-%20resource%20monitoring%20and%20auto-scale/2.%20kubedash)
+* Lição 5: [Hands-on - Gerenciando recursos e auto scalling](module-16%20-%20resource%20monitoring%20and%20auto-scale/3.%20horizontal%20pod%20auto%20scalling)
 
 ### MÓDULO 17: PRÓXIMOS PASSOS
 
