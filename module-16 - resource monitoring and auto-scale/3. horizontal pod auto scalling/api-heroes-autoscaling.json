@@ -1,0 +1,72 @@
+{
+  "apiVersion": "extensions/v1beta1",
+  "kind": "Deployment",
+  "metadata": {
+    "name": "api-heroes",
+    "labels": {
+      "app": "api-heroes"
+    }
+  },
+  "spec": {
+    "replicas": 1,
+    "strategy": {
+      "type": "RollingUpdate",
+      "rollingUpdate": {
+        "maxUnavailable": 0,
+        "maxSurge": 20
+      }
+    },
+    "template": {
+      "metadata": {
+        "labels": {
+          "app": "api-heroes"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "api-heroes",
+            "image": "erickwendel/nodejs-with-mongodb-example",
+            "readinessProbe": {
+              "httpGet": {
+                "path": "/heroes",
+                "port": 4000
+              },
+              "initialDelaySeconds": 15,
+              "timeoutSeconds": 1
+            },
+            "livenessProbe": {
+              "httpGet": {
+                "path": "/heroes",
+                "port": 4000
+              },
+              "initialDelaySeconds": 15,
+              "timeoutSeconds": 1
+            },
+            "resources": {
+              "limits": {
+                "cpu": "200m",
+                "memory": "200Mi"
+              }
+            },
+            "ports": [
+              {
+                "containerPort": 4000
+              }
+            ],
+            "env": [
+              {
+                "name": "MONGO_URL",
+                "value": "mongodb-svc"
+              },
+              {
+                "name": "PORT",
+                "value": "4000"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

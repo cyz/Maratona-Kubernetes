@@ -1,0 +1,31 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: kube-slack
+  namespace: kube-system
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  template:
+    metadata:
+      annotations:
+        scheduler.alpha.kubernetes.io/critical-pod: ""
+      name: kube-slack
+      labels:
+        app: kube-slack
+    spec:
+      containers:
+      - name: kube-slack
+        image: willwill/kube-slack:v3.3.0
+        env:
+        - name: SLACK_URL
+          value: https://hooks.slack.com/services/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
+        resources:
+          requests:
+            memory: 30M
+            cpu: 5m
+      tolerations:
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/master
+      - key: CriticalAddonsOnly
+        operator: Exists
